@@ -24,4 +24,4 @@ python3 SamsungApkDownloader.py
 
 > created by [David Lev](https://linktr.ee/davidlev) & [Yehuda By](https://t.me/m100achuzbots)
 ---
-![](https://telegra.ph/file/f862ce9bc9e6663c5d5e6.png)
+![](https://telegra.ph/file/7714e64640aaf73cd009b.png)
