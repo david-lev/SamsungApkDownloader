@@ -23,3 +23,5 @@ python3 SamsungApkDownloader.py
 - The APK file will be saved in the script path in the folowing format ``com.package.name-123.apk``
 
 > created by [David Lev](https://linktr.ee/davidlev) & [Yehuda By](https://t.me/m100achuzbots)
+---
+![](https://telegra.ph/file/f862ce9bc9e6663c5d5e6.png)
