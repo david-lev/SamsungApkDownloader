@@ -39,13 +39,14 @@ def main():
     match = match[0]
 
     # print the available apk file
-    print(f"\nThe version code is: {match['vs_code']}.\nThe version name is: {match['vs_name']}.")
+    print(f"\nThe version code is: {match['vs_code']}\nThe version name is: {match['vs_name']}\n")
     continue_msg = input("Enter [Y/n] to download: ")
     # download the apk file
     if continue_msg in ("Y", "y"):
-        print("Download started!")
-        request.urlretrieve(match["uri"], f'{package_name}-{match["vs_code"]}.apk')
-
+        print("\nDownload started!")
+        file = request.urlretrieve(match["uri"], f'{package_name}-{match["vs_code"]}.apk')
+        yellow, end = '\033[93m', '\033[0m'
+        print(f"APK saved: {yellow}{file[0]}{end}")
     elif continue_msg in ("N", "n"):
         print("OK!")
     else:
