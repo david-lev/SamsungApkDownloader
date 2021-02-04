@@ -11,9 +11,9 @@ url_format = "https://vas.samsungapps.com/stub/stubDownload.as?appId={}&deviceId
              "&abiType=64&extuk=0191d6627f38685f"
 
 # get input from user
-package_name = str(input(f"{green}Enter the package name (samsung app only): "))
-model = str(input(f"{green}Enter the device model (SM-XXXXX format): "))
-sdk_ver = str(input(f"{green}Enter the android version (SDK format - 26, 28, 29 etc..): "))
+package_name = str(input(f"{green}Enter the package name (Samsung apps only): {end}"))
+model = str(input(f"{green}Enter the device model ({yellow}SM-XXXXX{green} format): {end}"))
+sdk_ver = str(input(f"{green}Enter the android version (SDK format - {yellow}26 28 29{green} etc..): {end}"))
 
 url = url_format.format(package_name, model, sdk_ver)
 # get the text from xml respond
@@ -42,7 +42,8 @@ def main():
     match = match[0]
 
     # print the available apk file
-    print(f"{blue}\nThe available version Code is: {yellow}{match['vs_code']}\n{blue}The available Version Name is: {yellow}{match['vs_name']}{end}\n")
+    print(f"{blue}\nThe available version Code is: {yellow}{match['vs_code']}"
+          f"\n{blue}The available Version Name is: {yellow}{match['vs_name']}{end}\n")
     continue_msg = input(f"{blue}Do you want to download? {yellow}[Y/n]: ")
     # download the apk file
     if continue_msg in ("Y", "y"):
