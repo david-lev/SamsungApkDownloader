@@ -19,7 +19,7 @@ python3 SamsungApkDownloader.py
 ```
 - Enter the package name of the app that you want to download
 - Enter your device model (SM-XXXXX)
-- Enter your android sdk version (android 8 - 26, android 9 - 28 etc..)
+- Enter your [android sdk version](https://en.wikipedia.org/wiki/Android_version_history) (android 8 - 26, android 9 - 28 etc..)
 - The APK file will be saved in the script path in the folowing format ``com.package.name-123.apk``
 
 > created by [David Lev](https://linktr.ee/davidlev) & [Yehuda By](https://t.me/m100achuzbots)
