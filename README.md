@@ -1,3 +1,5 @@
+![Alt Text](https://i.imgur.com/AERTmJV.gif)
+---
 # Samsung APK Downloader
 
 ### How it's work?
@@ -24,4 +26,3 @@ python3 SamsungApkDownloader.py
 
 > created by [David Lev](https://linktr.ee/davidlev) & [Yehuda By](https://t.me/m100achuzbots)
 ---
-![Alt Text](https://i.imgur.com/AERTmJV.gif)
