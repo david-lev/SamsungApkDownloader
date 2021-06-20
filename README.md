@@ -1,4 +1,4 @@
-![Alt Text](https://i.imgur.com/W2NeFb9.gif)
+![Alt Text](https://i.imgur.com/Y4oAkA7.gif)
 ---
 # Samsung APK Downloader
 
